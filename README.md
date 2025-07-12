@@ -313,7 +313,7 @@ We welcome contributions! Please follow these steps:
 
 ## License
 
-This project is proprietary and intended for internal use by SocGen. All rights reserved.
+This project is proprietary and intended for internal use only . All rights reserved.
 
 ---
 
@@ -342,4 +342,3 @@ For support or questions, contact the development team at `security-dev@socgen.c
 
 ---
 
-*This documentation provides a comprehensive overview of the frontend folder, its structure, setup, and usage. For further details, refer to the internal documentation or reach out to
