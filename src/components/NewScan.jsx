@@ -47,7 +47,15 @@ const NewScan = ({ onStartScan, loading }) => {
       console.log("Is Valid Domain with dot:", cleanTarget.includes('.'))
       // Check if it's a valid IP or domain with at least one dot 
       const isValidDomain = domainRegex.test(cleanTarget) && cleanTarget.includes('.')
-      
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+      console.log("Is Valid Domain:", isValidDomain)
+
+      console.log("Is Valid Domain:", isValidDomain)
       if (!isValidIP && !isValidDomain) {
         newErrors.target = "Please enter a valid IP address, domain name, or URL"
       }
