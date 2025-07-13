@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_BASE_URL =  "https://netpilot-34d4fcc5744b.herokuapp.com/api"||  "http://localhost:5000/api";
+const API_BASE_URL =  "https://netpilot-34d4fcc5744b.herokuapp.com/api";
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
