@@ -41,6 +41,11 @@ const NewScan = ({ onStartScan, loading }) => {
       const domainRegex = /^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)*$/
       
       const isValidIP = ipRegex.test(cleanTarget)
+      console.log("Cleaned Target:", cleanTarget)
+      console.log("Is Valid IP:", isValidIP)
+      console.log("Is Valid Domain:", domainRegex.test(cleanTarget))
+      console.log("Is Valid Domain with dot:", cleanTarget.includes('.'))
+      // Check if it's a valid IP or domain with at least one dot 
       const isValidDomain = domainRegex.test(cleanTarget) && cleanTarget.includes('.')
       
       if (!isValidIP && !isValidDomain) {
